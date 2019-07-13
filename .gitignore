@@ -1,0 +1,29 @@
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+## Xcode settings
+xcuserdata
+
+## Build generated
+build/
+DerivedData
+build.xcarchive
+
+## Other
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+
+## Obj-C/Swift specific
+*.hmap
+*.ipa
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Checkouts
+Carthage/Build

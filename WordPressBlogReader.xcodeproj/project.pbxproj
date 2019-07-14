@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABD4AC7B22DAB59C00ECAA3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD4AC7A22DAB59C00ECAA3D /* AppDelegate.swift */; };
+		ABD4AC7D22DAB59C00ECAA3D /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD4AC7C22DAB59C00ECAA3D /* MasterViewController.swift */; };
+		ABD4AC7F22DAB59C00ECAA3D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD4AC7E22DAB59C00ECAA3D /* DetailViewController.swift */; };
+		ABD4AC8222DAB59D00ECAA3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD4AC8022DAB59D00ECAA3D /* Main.storyboard */; };
+		ABD4AC8422DAB59D00ECAA3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD4AC8322DAB59D00ECAA3D /* Assets.xcassets */; };
+		ABD4AC8722DAB59D00ECAA3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD4AC8522DAB59D00ECAA3D /* LaunchScreen.storyboard */; };
+		ABD4AC9222DAB59D00ECAA3D /* WordPressBlogReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD4AC9122DAB59D00ECAA3D /* WordPressBlogReaderTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABD4AC8E22DAB59D00ECAA3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABD4AC6F22DAB59C00ECAA3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABD4AC7622DAB59C00ECAA3D;
+			remoteInfo = WordPressBlogReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABD4AC7722DAB59C00ECAA3D /* WordPressBlogReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordPressBlogReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD4AC7A22DAB59C00ECAA3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABD4AC7C22DAB59C00ECAA3D /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		ABD4AC7E22DAB59C00ECAA3D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ABD4AC8122DAB59D00ECAA3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABD4AC8322DAB59D00ECAA3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABD4AC8622DAB59D00ECAA3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABD4AC8822DAB59D00ECAA3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABD4AC8D22DAB59D00ECAA3D /* WordPressBlogReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordPressBlogReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD4AC9122DAB59D00ECAA3D /* WordPressBlogReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPressBlogReaderTests.swift; sourceTree = "<group>"; };
+		ABD4AC9322DAB59D00ECAA3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABD4AC7422DAB59C00ECAA3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD4AC8A22DAB59D00ECAA3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABD4AC6E22DAB59C00ECAA3D = {
+			isa = PBXGroup;
+			children = (
+				ABD4AC7922DAB59C00ECAA3D /* WordPressBlogReader */,
+				ABD4AC9022DAB59D00ECAA3D /* WordPressBlogReaderTests */,
+				ABD4AC7822DAB59C00ECAA3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABD4AC7822DAB59C00ECAA3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABD4AC7722DAB59C00ECAA3D /* WordPressBlogReader.app */,
+				ABD4AC8D22DAB59D00ECAA3D /* WordPressBlogReaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABD4AC7922DAB59C00ECAA3D /* WordPressBlogReader */ = {
+			isa = PBXGroup;
+			children = (
+				ABD4AC7A22DAB59C00ECAA3D /* AppDelegate.swift */,
+				ABD4AC7C22DAB59C00ECAA3D /* MasterViewController.swift */,
+				ABD4AC7E22DAB59C00ECAA3D /* DetailViewController.swift */,
+				ABD4AC8022DAB59D00ECAA3D /* Main.storyboard */,
+				ABD4AC8322DAB59D00ECAA3D /* Assets.xcassets */,
+				ABD4AC8522DAB59D00ECAA3D /* LaunchScreen.storyboard */,
+				ABD4AC8822DAB59D00ECAA3D /* Info.plist */,
+			);
+			path = WordPressBlogReader;
+			sourceTree = "<group>";
+		};
+		ABD4AC9022DAB59D00ECAA3D /* WordPressBlogReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABD4AC9122DAB59D00ECAA3D /* WordPressBlogReaderTests.swift */,
+				ABD4AC9322DAB59D00ECAA3D /* Info.plist */,
+			);
+			path = WordPressBlogReaderTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABD4AC7622DAB59C00ECAA3D /* WordPressBlogReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD4AC9622DAB59D00ECAA3D /* Build configuration list for PBXNativeTarget "WordPressBlogReader" */;
+			buildPhases = (
+				ABD4AC7322DAB59C00ECAA3D /* Sources */,
+				ABD4AC7422DAB59C00ECAA3D /* Frameworks */,
+				ABD4AC7522DAB59C00ECAA3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WordPressBlogReader;
+			productName = WordPressBlogReader;
+			productReference = ABD4AC7722DAB59C00ECAA3D /* WordPressBlogReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABD4AC8C22DAB59D00ECAA3D /* WordPressBlogReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABD4AC9922DAB59D00ECAA3D /* Build configuration list for PBXNativeTarget "WordPressBlogReaderTests" */;
+			buildPhases = (
+				ABD4AC8922DAB59D00ECAA3D /* Sources */,
+				ABD4AC8A22DAB59D00ECAA3D /* Frameworks */,
+				ABD4AC8B22DAB59D00ECAA3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABD4AC8F22DAB59D00ECAA3D /* PBXTargetDependency */,
+			);
+			name = WordPressBlogReaderTests;
+			productName = WordPressBlogReaderTests;
+			productReference = ABD4AC8D22DAB59D00ECAA3D /* WordPressBlogReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABD4AC6F22DAB59C00ECAA3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Jon;
+				TargetAttributes = {
+					ABD4AC7622DAB59C00ECAA3D = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					ABD4AC8C22DAB59D00ECAA3D = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = ABD4AC7622DAB59C00ECAA3D;
+					};
+				};
+			};
+			buildConfigurationList = ABD4AC7222DAB59C00ECAA3D /* Build configuration list for PBXProject "WordPressBlogReader" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABD4AC6E22DAB59C00ECAA3D;
+			productRefGroup = ABD4AC7822DAB59C00ECAA3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABD4AC7622DAB59C00ECAA3D /* WordPressBlogReader */,
+				ABD4AC8C22DAB59D00ECAA3D /* WordPressBlogReaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABD4AC7522DAB59C00ECAA3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD4AC8722DAB59D00ECAA3D /* LaunchScreen.storyboard in Resources */,
+				ABD4AC8422DAB59D00ECAA3D /* Assets.xcassets in Resources */,
+				ABD4AC8222DAB59D00ECAA3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD4AC8B22DAB59D00ECAA3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABD4AC7322DAB59C00ECAA3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD4AC7F22DAB59C00ECAA3D /* DetailViewController.swift in Sources */,
+				ABD4AC7D22DAB59C00ECAA3D /* MasterViewController.swift in Sources */,
+				ABD4AC7B22DAB59C00ECAA3D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABD4AC8922DAB59D00ECAA3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD4AC9222DAB59D00ECAA3D /* WordPressBlogReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABD4AC8F22DAB59D00ECAA3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABD4AC7622DAB59C00ECAA3D /* WordPressBlogReader */;
+			targetProxy = ABD4AC8E22DAB59D00ECAA3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABD4AC8022DAB59D00ECAA3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABD4AC8122DAB59D00ECAA3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABD4AC8522DAB59D00ECAA3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABD4AC8622DAB59D00ECAA3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABD4AC9422DAB59D00ECAA3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABD4AC9522DAB59D00ECAA3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABD4AC9722DAB59D00ECAA3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WordPressBlogReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.WordPressBlogReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABD4AC9822DAB59D00ECAA3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WordPressBlogReader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.WordPressBlogReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABD4AC9A22DAB59D00ECAA3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WordPressBlogReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.WordPressBlogReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordPressBlogReader.app/WordPressBlogReader";
+			};
+			name = Debug;
+		};
+		ABD4AC9B22DAB59D00ECAA3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WordPressBlogReaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.WordPressBlogReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordPressBlogReader.app/WordPressBlogReader";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABD4AC7222DAB59C00ECAA3D /* Build configuration list for PBXProject "WordPressBlogReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD4AC9422DAB59D00ECAA3D /* Debug */,
+				ABD4AC9522DAB59D00ECAA3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD4AC9622DAB59D00ECAA3D /* Build configuration list for PBXNativeTarget "WordPressBlogReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD4AC9722DAB59D00ECAA3D /* Debug */,
+				ABD4AC9822DAB59D00ECAA3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABD4AC9922DAB59D00ECAA3D /* Build configuration list for PBXNativeTarget "WordPressBlogReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD4AC9A22DAB59D00ECAA3D /* Debug */,
+				ABD4AC9B22DAB59D00ECAA3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABD4AC6F22DAB59C00ECAA3D /* Project object */;
+}

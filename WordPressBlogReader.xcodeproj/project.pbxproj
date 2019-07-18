@@ -8,8 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		ABD4AC7B22DAB59C00ECAA3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD4AC7A22DAB59C00ECAA3D /* AppDelegate.swift */; };
-		ABD4AC7D22DAB59C00ECAA3D /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD4AC7C22DAB59C00ECAA3D /* MasterViewController.swift */; };
-		ABD4AC7F22DAB59C00ECAA3D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD4AC7E22DAB59C00ECAA3D /* DetailViewController.swift */; };
+		ABD4AC7D22DAB59C00ECAA3D /* BlogPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD4AC7C22DAB59C00ECAA3D /* BlogPostsViewController.swift */; };
 		ABD4AC8222DAB59D00ECAA3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD4AC8022DAB59D00ECAA3D /* Main.storyboard */; };
 		ABD4AC8422DAB59D00ECAA3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD4AC8322DAB59D00ECAA3D /* Assets.xcassets */; };
 		ABD4AC8722DAB59D00ECAA3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD4AC8522DAB59D00ECAA3D /* LaunchScreen.storyboard */; };
@@ -37,8 +36,7 @@
 /* Begin PBXFileReference section */
 		ABD4AC7722DAB59C00ECAA3D /* WordPressBlogReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordPressBlogReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD4AC7A22DAB59C00ECAA3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ABD4AC7C22DAB59C00ECAA3D /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		ABD4AC7E22DAB59C00ECAA3D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		ABD4AC7C22DAB59C00ECAA3D /* BlogPostsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPostsViewController.swift; sourceTree = "<group>"; };
 		ABD4AC8122DAB59D00ECAA3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABD4AC8322DAB59D00ECAA3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABD4AC8622DAB59D00ECAA3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -96,8 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				ABD4AC7A22DAB59C00ECAA3D /* AppDelegate.swift */,
-				ABD4AC7C22DAB59C00ECAA3D /* MasterViewController.swift */,
-				ABD4AC7E22DAB59C00ECAA3D /* DetailViewController.swift */,
+				ABD4AC7C22DAB59C00ECAA3D /* BlogPostsViewController.swift */,
 				ABD4AC8022DAB59D00ECAA3D /* Main.storyboard */,
 				ABD4ACA022DAB6D100ECAA3D /* Data Managers */,
 				ABD4AC9C22DAB64900ECAA3D /* Helpers */,
@@ -265,9 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABD4AC7F22DAB59C00ECAA3D /* DetailViewController.swift in Sources */,
 				ABD4ACAE22DAB6D100ECAA3D /* WPPostType.swift in Sources */,
-				ABD4AC7D22DAB59C00ECAA3D /* MasterViewController.swift in Sources */,
+				ABD4AC7D22DAB59C00ECAA3D /* BlogPostsViewController.swift in Sources */,
 				ABD4ACAA22DAB6D100ECAA3D /* WordPressAPIError.swift in Sources */,
 				ABD4ACAD22DAB6D100ECAA3D /* WPBlogData.swift in Sources */,
 				ABD4AC9E22DAB64900ECAA3D /* DateFormatter+Util.swift in Sources */,

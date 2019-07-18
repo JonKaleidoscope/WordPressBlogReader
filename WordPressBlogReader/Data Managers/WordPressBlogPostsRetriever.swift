@@ -14,7 +14,7 @@ struct WPRequestInputs {
     /// `postType` category to query post by
     let postType: String?
     
-    init(perPage: Int = 10, postType: String?=nil) {
+    init(perPage: Int = 10, postType: String? = nil) {
         self.perPage = perPage
         self.postType = postType
     }
@@ -53,7 +53,7 @@ struct WordPressBlogPostData {
 typealias WordPressBlogPostResult = Swift.Result<WordPressBlogPostData, WordPressAPIError>
 typealias WordPressBlogPostCompletion = (WordPressBlogPostResult) -> Void
 
-class WordPressBlogPostsRetriever {
+class WordPressBlogPostsRetriever: ResponseMappable {
     
     let session = URLSession(configuration: .default)
     private var dataTask: URLSessionDataTask?

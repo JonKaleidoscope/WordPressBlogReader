@@ -38,7 +38,7 @@ class ResponseMapperTests: XCTestCase {
             return XCTFail("Unable to read JSON Data from bundle.")
         }
 
-        let headers = [ "X-WP-Total": "10", "X-WP-TotalPages": "1"]
+        let headers = ["X-WP-Total": "10", "X-WP-TotalPages": "1"]
         let httpResponse = HTTPURLResponse(url: URL(string: "/")!,
                                            statusCode: 200,
                                            httpVersion: nil,
@@ -103,5 +103,4 @@ class ResponseMapperTests: XCTestCase {
 
         return try? Data(contentsOf: path)
     }
-
 }
